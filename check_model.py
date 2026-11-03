@@ -7,7 +7,7 @@ from sklearn.metrics import roc_auc_score
 
 from train import load_data
 
-MIN_AUC = 0.80        # agreed by the team: no model below this reaches main
+MIN_AUC = 0.85        # agreed by the team: no model below this reaches main
 
 
 def main():
